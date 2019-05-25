@@ -398,51 +398,7 @@ public class dateTest {
         }
     }
 
-    @Test
-    public void testHash(){
-            String str = "<ap>\n" +
-                    "\t<CCTransCode>CFRT02</CCTransCode>\n" +
-                    "\t<ProductID>ICC</ProductID>\n" +
-                    "\t<ChannelType>ERP</ChannelType>\n" +
-                    "\t<CorpNo></CorpNo>\n" +
-                    "\t<OpNo></OpNo>\n" +
-                    "\t<AuthNo></AuthNo>\n" +
-                    "\t<ReqSeqNo>201905220000155081</ReqSeqNo>\n" +
-                    "\t<ReqDate></ReqDate>\n" +
-                    "\t<ReqTime></ReqTime>\n" +
-                    "\t<Sign></Sign>\n" +
-                    "\t<Amt>123.00</Amt>\n" +
-                    "\t<Cmp>\n" +
-                    "\t\t<DbProv>03</DbProv>\n" +
-                    "\t\t<DbAccNo>492300040005139</DbAccNo>\n" +
-                    "\t\t<DbLogAccNo></DbLogAccNo>\n" +
-                    "\t\t<DbCur>01</DbCur>\n" +
-                    "\t\t<CrProv></CrProv>\n" +
-                    "\t\t<CrAccNo>1001202919025738824</CrAccNo>\n" +
-                    "\t\t<CrLogAccNo></CrLogAccNo>\n" +
-                    "\t\t<CrCur>01</CrCur>\n" +
-                    "\t\t<ConFlag>0</ConFlag>\n" +
-                    "\t</Cmp>\n" +
-                    "\t<Corp>\n" +
-                    "\t\t<PsFlag></PsFlag>\n" +
-                    "\t\t<BookingFlag></BookingFlag>\n" +
-                    "\t\t<BookingDate></BookingDate>\n" +
-                    "\t\t<BookingTime></BookingTime>\n" +
-                    "\t\t<UrgencyFlag>1</UrgencyFlag>\n" +
-                    "\t\t<OthBankFlag>1</OthBankFlag>\n" +
-                    "\t\t<CrBankType>102</CrBankType>\n" +
-                    "\t\t<CrAccName>东吴基金管理有限公司清算专户</CrAccName>\n" +
-                    "\t\t<CrBankName>中国工商银行上海分行营业部</CrBankName>\n" +
-                    "\t\t<CrBankNo>102290024433</CrBankNo>\n" +
-                    "\t\t<DbAccName>东吴基金管理有限公司清算专户</DbAccName>\n" +
-                    "\t\t<WhyUse>232</WhyUse>\n" +
-                    "\t\t<Postscript></Postscript>\n" +
-                    "\t</Corp>\n" +
-                    "</ap>";
-        byte [] by = str.toString().getBytes();
-        System.out.println(String.valueOf(by.length));
 
-    }
 
 
     private static String getSqlStrByList(List sqhList, int splitNum,
