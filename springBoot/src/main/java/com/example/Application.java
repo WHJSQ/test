@@ -29,7 +29,7 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 		log.info("chapter 启动");
 	}
-	/**
+	/**whj
 	 * 会自动注册使用了@ServerEndpoint注解声明的Websocket endpoint
 	 * 要注意，如果使用独立的servlet容器，
 	 * 而不是直接使用springboot的内置容器，
@@ -51,6 +51,7 @@ public class Application {
 		executor.setWaitForTasksToCompleteOnShutdown(true);
 		//等待时长
 		executor.setAwaitTerminationSeconds(60);
+        log.info("启动");
 		return  executor;
 	}
 }
