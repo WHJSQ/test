@@ -1,0 +1,352 @@
+文件记录-2018-09-04 16:00:14 [main] INFO  com.example.Application - Starting Application on WIN-PIJ0M0JTUTE with PID 11424 (E:\IDEAworkplace\springBoot\target\classes started by Administrator in E:\IDEAworkplace\springBoot)
+文件记录-2018-09-04 16:00:14 [main] INFO  com.example.Application - The following profiles are active: test
+文件记录-2018-09-04 16:00:14 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b53e23f: startup date [Tue Sep 04 16:00:14 CST 2018]; root of context hierarchy
+文件记录-2018-09-04 16:00:14 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+文件记录-2018-09-04 16:00:15 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+文件记录-2018-09-04 16:00:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+文件记录-2018-09-04 16:00:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+文件记录-2018-09-04 16:00:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+文件记录-2018-09-04 16:00:15 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/chapter] - Initializing Spring embedded WebApplicationContext
+文件记录-2018-09-04 16:00:15 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1096 ms
+文件记录-2018-09-04 16:00:15 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+文件记录-2018-09-04 16:00:15 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+文件记录-2018-09-04 16:00:15 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+文件记录-2018-09-04 16:00:15 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+文件记录-2018-09-04 16:00:15 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+文件记录-2018-09-04 16:00:15 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'customFilter' to urls: [/*]
+文件记录-2018-09-04 16:00:15 [localhost-startStop-1] INFO  com.example.filter.CustomFilter - filter 初始化
+文件记录-2018-09-04 16:00:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b53e23f: startup date [Tue Sep 04 16:00:14 CST 2018]; root of context hierarchy
+文件记录-2018-09-04 16:00:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getName],methods=[GET]}" onto public java.lang.String com.example.controller.hello.getName()
+文件记录-2018-09-04 16:00:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getConfig],methods=[GET]}" onto public com.example.pojo.Config com.example.controller.hello.getConfig()
+文件记录-2018-09-04 16:00:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getcode],methods=[GET]}" onto public com.example.pojo.Code com.example.controller.hello.getCode()
+文件记录-2018-09-04 16:00:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUser],methods=[GET]}" onto public java.lang.String com.example.controller.hello.getUser(com.example.pojo.User)
+文件记录-2018-09-04 16:00:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo],methods=[GET]}" onto public java.lang.String com.example.controller.hello.say()
+文件记录-2018-09-04 16:00:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+文件记录-2018-09-04 16:00:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+文件记录-2018-09-04 16:00:16 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:00:16 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:00:16 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in commonExceptionHandler
+文件记录-2018-09-04 16:00:16 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:00:16 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+文件记录-2018-09-04 16:00:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+文件记录-2018-09-04 16:00:16 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+文件记录-2018-09-04 16:00:16 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+文件记录-2018-09-04 16:00:16 [main] INFO  com.example.Application - Started Application in 1.893 seconds (JVM running for 2.588)
+文件记录-2018-09-04 16:00:16 [main] INFO  com.example.Application - chapter qidong
+文件记录-2018-09-04 16:01:51 [http-nio-8081-exec-6] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:01:51 [http-nio-8081-exec-6] INFO  o.a.c.c.C.[.[localhost].[/chapter] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+文件记录-2018-09-04 16:01:51 [http-nio-8081-exec-6] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+文件记录-2018-09-04 16:01:51 [http-nio-8081-exec-6] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 60 ms
+文件记录-2018-09-04 16:01:51 [http-nio-8081-exec-6] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:01:51 [http-nio-8081-exec-6] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:01:51 [http-nio-8081-exec-6] INFO  com.example.controller.hello - getcode111
+文件记录-2018-09-04 16:01:51 [http-nio-8081-exec-6] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:01:51 [http-nio-8081-exec-6] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:01:56 [http-nio-8081-exec-8] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:01:56 [http-nio-8081-exec-8] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:01:56 [http-nio-8081-exec-8] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:01:56 [http-nio-8081-exec-8] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:01:56 [http-nio-8081-exec-8] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:04:06 [http-nio-8081-exec-2] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:04:06 [http-nio-8081-exec-2] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:04:06 [http-nio-8081-exec-2] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:04:06 [http-nio-8081-exec-2] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:04:06 [http-nio-8081-exec-2] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:04:06 [http-nio-8081-exec-2] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:04:26 [http-nio-8081-exec-4] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:04:26 [http-nio-8081-exec-4] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:04:26 [http-nio-8081-exec-4] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:04:26 [http-nio-8081-exec-4] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:04:26 [http-nio-8081-exec-4] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:04:26 [http-nio-8081-exec-4] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:31:56 [main] INFO  com.example.Application - Starting Application on WIN-PIJ0M0JTUTE with PID 11096 (E:\IDEAworkplace\springBoot\target\classes started by Administrator in E:\IDEAworkplace\springBoot)
+文件记录-2018-09-04 16:31:56 [main] INFO  com.example.Application - The following profiles are active: test
+文件记录-2018-09-04 16:31:56 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b53e23f: startup date [Tue Sep 04 16:31:56 CST 2018]; root of context hierarchy
+文件记录-2018-09-04 16:31:56 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+文件记录-2018-09-04 16:31:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+文件记录-2018-09-04 16:31:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+文件记录-2018-09-04 16:31:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+文件记录-2018-09-04 16:31:57 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/chapter] - Initializing Spring embedded WebApplicationContext
+文件记录-2018-09-04 16:31:57 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 841 ms
+文件记录-2018-09-04 16:31:57 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+文件记录-2018-09-04 16:31:57 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+文件记录-2018-09-04 16:31:57 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+文件记录-2018-09-04 16:31:57 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+文件记录-2018-09-04 16:31:57 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+文件记录-2018-09-04 16:31:57 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'customFilter' to urls: [/*]
+文件记录-2018-09-04 16:31:57 [localhost-startStop-1] INFO  com.example.filter.CustomFilter - filter 初始化
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b53e23f: startup date [Tue Sep 04 16:31:56 CST 2018]; root of context hierarchy
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getName],methods=[GET]}" onto public java.lang.String com.example.controller.hello.getName()
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getConfig],methods=[GET]}" onto public com.example.pojo.Config com.example.controller.hello.getConfig()
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getcode],methods=[GET]}" onto public com.example.pojo.Code com.example.controller.hello.getCode()
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo],methods=[GET]}" onto public java.lang.String com.example.controller.hello.say()
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUser],methods=[GET]}" onto public java.lang.String com.example.controller.hello.getUser(com.example.pojo.User)
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in commonExceptionHandler
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+文件记录-2018-09-04 16:31:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+文件记录-2018-09-04 16:31:57 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+文件记录-2018-09-04 16:31:57 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+文件记录-2018-09-04 16:31:57 [main] INFO  com.example.Application - Started Application in 1.475 seconds (JVM running for 1.837)
+文件记录-2018-09-04 16:31:57 [main] INFO  com.example.Application - chapter qidong
+文件记录-2018-09-04 16:32:06 [http-nio-8081-exec-1] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:32:06 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[localhost].[/chapter] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+文件记录-2018-09-04 16:32:06 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+文件记录-2018-09-04 16:32:06 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+文件记录-2018-09-04 16:32:06 [http-nio-8081-exec-1] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:32:06 [http-nio-8081-exec-1] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:32:06 [http-nio-8081-exec-1] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:32:06 [http-nio-8081-exec-1] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:32:06 [http-nio-8081-exec-1] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:32:11 [http-nio-8081-exec-2] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:32:11 [http-nio-8081-exec-2] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:32:11 [http-nio-8081-exec-2] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:32:11 [http-nio-8081-exec-2] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:32:11 [http-nio-8081-exec-2] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:32:11 [http-nio-8081-exec-2] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:32:13 [http-nio-8081-exec-3] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:32:13 [http-nio-8081-exec-3] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:32:13 [http-nio-8081-exec-3] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:32:13 [http-nio-8081-exec-3] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:32:13 [http-nio-8081-exec-3] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:32:13 [http-nio-8081-exec-3] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:32:33 [http-nio-8081-exec-5] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:32:33 [http-nio-8081-exec-5] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:32:33 [http-nio-8081-exec-5] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:32:33 [http-nio-8081-exec-5] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:32:33 [http-nio-8081-exec-5] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:32:33 [http-nio-8081-exec-5] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:32:40 [http-nio-8081-exec-7] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:32:40 [http-nio-8081-exec-7] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:32:40 [http-nio-8081-exec-7] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:32:40 [http-nio-8081-exec-7] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:32:40 [http-nio-8081-exec-7] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:32:40 [http-nio-8081-exec-7] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:32:44 [http-nio-8081-exec-8] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:32:44 [http-nio-8081-exec-8] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:32:44 [http-nio-8081-exec-8] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:32:44 [http-nio-8081-exec-8] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:32:44 [http-nio-8081-exec-8] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:32:44 [http-nio-8081-exec-8] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:32:51 [main] INFO  com.example.Application - Starting Application on WIN-PIJ0M0JTUTE with PID 11216 (E:\IDEAworkplace\springBoot\target\classes started by Administrator in E:\IDEAworkplace\springBoot)
+文件记录-2018-09-04 16:32:51 [main] INFO  com.example.Application - The following profiles are active: test
+文件记录-2018-09-04 16:32:51 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b53e23f: startup date [Tue Sep 04 16:32:51 CST 2018]; root of context hierarchy
+文件记录-2018-09-04 16:32:51 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+文件记录-2018-09-04 16:32:51 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+文件记录-2018-09-04 16:32:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+文件记录-2018-09-04 16:32:51 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+文件记录-2018-09-04 16:32:51 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+文件记录-2018-09-04 16:32:51 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/chapter] - Initializing Spring embedded WebApplicationContext
+文件记录-2018-09-04 16:32:51 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 813 ms
+文件记录-2018-09-04 16:32:51 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+文件记录-2018-09-04 16:32:51 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+文件记录-2018-09-04 16:32:51 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+文件记录-2018-09-04 16:32:51 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+文件记录-2018-09-04 16:32:51 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+文件记录-2018-09-04 16:32:51 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'customFilter' to urls: [/*]
+文件记录-2018-09-04 16:32:51 [localhost-startStop-1] INFO  com.example.filter.CustomFilter - filter 初始化
+文件记录-2018-09-04 16:32:52 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b53e23f: startup date [Tue Sep 04 16:32:51 CST 2018]; root of context hierarchy
+文件记录-2018-09-04 16:32:52 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getName],methods=[GET]}" onto public java.lang.String com.example.controller.hello.getName()
+文件记录-2018-09-04 16:32:52 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getConfig],methods=[GET]}" onto public com.example.pojo.Config com.example.controller.hello.getConfig()
+文件记录-2018-09-04 16:32:52 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getcode],methods=[GET]}" onto public com.example.pojo.Code com.example.controller.hello.getCode()
+文件记录-2018-09-04 16:32:52 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUser],methods=[GET]}" onto public java.lang.String com.example.controller.hello.getUser(com.example.pojo.User)
+文件记录-2018-09-04 16:32:52 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo],methods=[GET]}" onto public java.lang.String com.example.controller.hello.say()
+文件记录-2018-09-04 16:32:52 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+文件记录-2018-09-04 16:32:52 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+文件记录-2018-09-04 16:32:52 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:32:52 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:32:52 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in commonExceptionHandler
+文件记录-2018-09-04 16:32:52 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:32:52 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+文件记录-2018-09-04 16:32:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+文件记录-2018-09-04 16:32:52 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+文件记录-2018-09-04 16:32:52 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+文件记录-2018-09-04 16:32:52 [main] INFO  com.example.Application - Started Application in 1.459 seconds (JVM running for 1.793)
+文件记录-2018-09-04 16:32:52 [main] INFO  com.example.Application - chapter qidong
+文件记录-2018-09-04 16:33:47 [http-nio-8081-exec-1] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:33:47 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[localhost].[/chapter] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+文件记录-2018-09-04 16:33:47 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+文件记录-2018-09-04 16:33:47 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+文件记录-2018-09-04 16:33:47 [http-nio-8081-exec-1] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:33:47 [http-nio-8081-exec-1] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:33:47 [http-nio-8081-exec-1] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:33:47 [http-nio-8081-exec-1] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:33:47 [http-nio-8081-exec-1] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:33:51 [http-nio-8081-exec-2] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:33:51 [http-nio-8081-exec-2] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:33:51 [http-nio-8081-exec-2] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:33:51 [http-nio-8081-exec-2] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:33:51 [http-nio-8081-exec-2] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:33:51 [http-nio-8081-exec-2] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-3] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-3] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-3] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-3] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-3] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-3] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-4] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-4] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-4] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-4] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-4] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-4] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-5] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-5] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-5] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-5] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-5] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-5] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-6] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-6] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-6] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-6] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-6] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-6] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-7] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-7] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-7] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-7] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-7] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-7] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-8] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-8] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-8] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-8] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-8] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:33:52 [http-nio-8081-exec-8] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-9] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-9] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-9] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-9] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-9] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-9] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-10] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-10] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-10] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-10] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-10] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-10] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-1] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-1] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-1] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-1] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-1] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:33:53 [http-nio-8081-exec-1] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:33:57 [http-nio-8081-exec-2] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:33:57 [http-nio-8081-exec-2] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:33:57 [http-nio-8081-exec-2] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:33:57 [http-nio-8081-exec-2] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:33:57 [http-nio-8081-exec-2] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:34:15 [http-nio-8081-exec-4] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:34:15 [http-nio-8081-exec-4] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:34:15 [http-nio-8081-exec-4] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:34:15 [http-nio-8081-exec-4] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:34:15 [http-nio-8081-exec-4] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:34:15 [http-nio-8081-exec-4] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:34:27 [http-nio-8081-exec-6] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:34:27 [http-nio-8081-exec-6] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:34:27 [http-nio-8081-exec-6] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:34:27 [http-nio-8081-exec-6] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:34:27 [http-nio-8081-exec-6] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:34:27 [http-nio-8081-exec-6] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:34:35 [http-nio-8081-exec-7] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:34:35 [http-nio-8081-exec-7] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:34:35 [http-nio-8081-exec-7] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:34:35 [http-nio-8081-exec-7] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:34:35 [http-nio-8081-exec-7] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:34:35 [http-nio-8081-exec-7] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:35:34 [http-nio-8081-exec-9] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:35:34 [http-nio-8081-exec-9] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:35:34 [http-nio-8081-exec-9] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:35:34 [http-nio-8081-exec-9] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:35:34 [http-nio-8081-exec-9] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:38:18 [main] INFO  com.example.Application - Starting Application on WIN-PIJ0M0JTUTE with PID 7396 (E:\IDEAworkplace\springBoot\target\classes started by Administrator in E:\IDEAworkplace\springBoot)
+文件记录-2018-09-04 16:38:18 [main] INFO  com.example.Application - The following profiles are active: test
+文件记录-2018-09-04 16:38:18 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7161d8d1: startup date [Tue Sep 04 16:38:18 CST 2018]; root of context hierarchy
+文件记录-2018-09-04 16:38:19 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+文件记录-2018-09-04 16:38:19 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+文件记录-2018-09-04 16:38:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+文件记录-2018-09-04 16:38:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+文件记录-2018-09-04 16:38:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+文件记录-2018-09-04 16:38:19 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/chapter] - Initializing Spring embedded WebApplicationContext
+文件记录-2018-09-04 16:38:19 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 882 ms
+文件记录-2018-09-04 16:38:19 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+文件记录-2018-09-04 16:38:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+文件记录-2018-09-04 16:38:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+文件记录-2018-09-04 16:38:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+文件记录-2018-09-04 16:38:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+文件记录-2018-09-04 16:38:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'customFilter' to urls: [/*]
+文件记录-2018-09-04 16:38:19 [localhost-startStop-1] INFO  com.example.filter.CustomFilter - filter 初始化
+文件记录-2018-09-04 16:38:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7161d8d1: startup date [Tue Sep 04 16:38:18 CST 2018]; root of context hierarchy
+文件记录-2018-09-04 16:38:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getName],methods=[GET]}" onto public java.lang.String com.example.controller.hello.getName()
+文件记录-2018-09-04 16:38:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getConfig],methods=[GET]}" onto public com.example.pojo.Config com.example.controller.hello.getConfig()
+文件记录-2018-09-04 16:38:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUser],methods=[GET]}" onto public java.lang.String com.example.controller.hello.getUser(com.example.pojo.User)
+文件记录-2018-09-04 16:38:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo],methods=[GET]}" onto public java.lang.String com.example.controller.hello.say()
+文件记录-2018-09-04 16:38:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getcode],methods=[GET]}" onto public com.example.pojo.Code com.example.controller.hello.getCode()
+文件记录-2018-09-04 16:38:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+文件记录-2018-09-04 16:38:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+文件记录-2018-09-04 16:38:20 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:38:20 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:38:20 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in commonExceptionHandler
+文件记录-2018-09-04 16:38:20 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:38:20 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+文件记录-2018-09-04 16:38:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+文件记录-2018-09-04 16:38:20 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+文件记录-2018-09-04 16:38:20 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+文件记录-2018-09-04 16:38:20 [main] INFO  com.example.Application - Started Application in 1.812 seconds (JVM running for 2.8)
+文件记录-2018-09-04 16:38:20 [main] INFO  com.example.Application - chapter qidong
+文件记录-2018-09-04 16:38:37 [main] INFO  com.example.Application - Starting Application on WIN-PIJ0M0JTUTE with PID 10036 (E:\IDEAworkplace\springBoot\target\classes started by Administrator in E:\IDEAworkplace\springBoot)
+文件记录-2018-09-04 16:38:37 [main] INFO  com.example.Application - The following profiles are active: test
+文件记录-2018-09-04 16:38:37 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7161d8d1: startup date [Tue Sep 04 16:38:37 CST 2018]; root of context hierarchy
+文件记录-2018-09-04 16:38:37 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+文件记录-2018-09-04 16:38:38 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+文件记录-2018-09-04 16:38:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+文件记录-2018-09-04 16:38:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+文件记录-2018-09-04 16:38:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+文件记录-2018-09-04 16:38:38 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/chapter] - Initializing Spring embedded WebApplicationContext
+文件记录-2018-09-04 16:38:38 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1005 ms
+文件记录-2018-09-04 16:38:38 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+文件记录-2018-09-04 16:38:38 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+文件记录-2018-09-04 16:38:38 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+文件记录-2018-09-04 16:38:38 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+文件记录-2018-09-04 16:38:38 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+文件记录-2018-09-04 16:38:38 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'customFilter' to urls: [/*]
+文件记录-2018-09-04 16:38:38 [localhost-startStop-1] INFO  com.example.filter.CustomFilter - filter 初始化
+文件记录-2018-09-04 16:38:38 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7161d8d1: startup date [Tue Sep 04 16:38:37 CST 2018]; root of context hierarchy
+文件记录-2018-09-04 16:38:38 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getName],methods=[GET]}" onto public java.lang.String com.example.controller.hello.getName()
+文件记录-2018-09-04 16:38:38 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getConfig],methods=[GET]}" onto public com.example.pojo.Config com.example.controller.hello.getConfig()
+文件记录-2018-09-04 16:38:38 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getcode],methods=[GET]}" onto public com.example.pojo.Code com.example.controller.hello.getCode()
+文件记录-2018-09-04 16:38:38 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo],methods=[GET]}" onto public java.lang.String com.example.controller.hello.say()
+文件记录-2018-09-04 16:38:38 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUser],methods=[GET]}" onto public java.lang.String com.example.controller.hello.getUser(com.example.pojo.User)
+文件记录-2018-09-04 16:38:38 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+文件记录-2018-09-04 16:38:38 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+文件记录-2018-09-04 16:38:38 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:38:38 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:38:38 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in commonExceptionHandler
+文件记录-2018-09-04 16:38:38 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2018-09-04 16:38:39 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+文件记录-2018-09-04 16:38:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+文件记录-2018-09-04 16:38:39 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+文件记录-2018-09-04 16:38:39 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+文件记录-2018-09-04 16:38:39 [main] INFO  com.example.Application - Started Application in 1.89 seconds (JVM running for 2.283)
+文件记录-2018-09-04 16:38:39 [main] INFO  com.example.Application - chapter qidong
+文件记录-2018-09-04 16:38:49 [http-nio-8081-exec-1] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:38:49 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[localhost].[/chapter] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+文件记录-2018-09-04 16:38:49 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+文件记录-2018-09-04 16:38:49 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+文件记录-2018-09-04 16:38:49 [http-nio-8081-exec-1] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:38:49 [http-nio-8081-exec-1] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:38:58 [http-nio-8081-exec-1] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:38:58 [http-nio-8081-exec-1] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:38:58 [http-nio-8081-exec-1] INFO  com.example.listener.Customlistener - Listen：销毁
+文件记录-2018-09-04 16:41:10 [http-nio-8081-exec-4] INFO  com.example.listener.Customlistener - Listen：初始化
+文件记录-2018-09-04 16:41:10 [http-nio-8081-exec-4] INFO  com.example.filter.CustomFilter - 请求处理
+文件记录-2018-09-04 16:41:10 [http-nio-8081-exec-4] INFO  c.e.I.CustomHandlerInterceptor - preHandle:请求前调用
+文件记录-2018-09-04 16:41:10 [http-nio-8081-exec-4] INFO  c.e.I.CustomHandlerInterceptor - postHandle:请求后调用
+文件记录-2018-09-04 16:41:10 [http-nio-8081-exec-4] INFO  c.e.I.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+文件记录-2018-09-04 16:41:10 [http-nio-8081-exec-4] INFO  com.example.listener.Customlistener - Listen：销毁
