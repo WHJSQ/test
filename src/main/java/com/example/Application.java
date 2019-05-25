@@ -51,6 +51,7 @@ public class Application {
 		executor.setWaitForTasksToCompleteOnShutdown(true);
 		//等待时长
 		executor.setAwaitTerminationSeconds(60);
+        log.info("启动");
 		return  executor;
 	}
 }
