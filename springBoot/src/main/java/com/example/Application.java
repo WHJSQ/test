@@ -51,7 +51,11 @@ public class Application {
 		executor.setWaitForTasksToCompleteOnShutdown(true);
 		//等待时长
 		executor.setAwaitTerminationSeconds(60);
+<<<<<<< Updated upstream
         log.info("启动12321");
+=======
+        log.info("启动123423212");
+>>>>>>> Stashed changes
 		return  executor;
 	}
 }
